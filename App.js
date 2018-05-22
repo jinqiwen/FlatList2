@@ -32,6 +32,18 @@ export default class App extends Component<Props> {
                       navigation.navigate("FlatList")
               }}
            />
+          <Button
+              title={"Hello swipeableFlatList"}
+              onPress={()=>{
+                  navigation.navigate("SwipeableFlatList")
+              }}
+          />
+          <Button
+              title={"Hello sectionList"}
+              onPress={()=>{
+                  navigation.navigate("SectionListDemo")
+              }}
+          />
         <Text style={styles.instructions}>
           {instructions}
         </Text>
